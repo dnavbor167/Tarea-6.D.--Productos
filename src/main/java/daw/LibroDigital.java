@@ -40,4 +40,9 @@ final public class LibroDigital extends Libro implements SeDescarga{
     public void descarga() {
         System.out.println("https://Daniel.daw/" + this.hashCode());
     }
+
+    @Override
+    public void caratula() {
+        System.out.println("Carátula Digital");
+    }
 }

@@ -41,4 +41,8 @@ final public class LibroPapel extends Libro implements SeEnvia{
                 this.toString() + ", en la dirección: " + direccion);
     }
     
+    @Override
+    public void caratula() {
+        System.out.println("Carátula física");
+    }
 }

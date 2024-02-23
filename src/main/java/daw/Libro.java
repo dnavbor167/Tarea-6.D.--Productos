@@ -64,4 +64,8 @@ public abstract class Libro extends Producto implements Comparable<Libro>{
         return this.getIsbn().compareToIgnoreCase(o.getIsbn());
     }
     
+    //insertamos método nuevo abstracto (que ya es abstracto porque la clase
+    // es abstracta) y que tenga comportamiento diferente en las hijas
+    public abstract void caratula();
+    
 }
